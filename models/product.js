@@ -20,6 +20,7 @@ module.exports = class Product {
   }
 
   static fetchAll() {
+    //here we are retriving data from database
     return db.execute('SELECT * FROM products');
   }
 
